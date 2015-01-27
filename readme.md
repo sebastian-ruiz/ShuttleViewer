@@ -2,6 +2,8 @@
 
 ShuttleViewer is a plugin for fileShuttle. It adds a neat landing page for your images, much like droplr and cloudapp. ShuttleViewer is composed of HTML, CSS and JS, which should be uploaded to your image hosting server.
 
+View a [real life example here](http://sht.tl/iKLtFX) of ShuttleViewer in action.
+
 ![step 1](https://raw.githubusercontent.com/vephinx/ShuttleViewer/master/example.png)
 
 ##Features
