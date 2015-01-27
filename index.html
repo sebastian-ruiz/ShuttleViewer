@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title><!-- Determined by JS -->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="theme/css/normalize.min.css">
+        <link rel="stylesheet" href="theme/css/main.css">
+        <link rel="stylesheet" href="theme/css/video-js.css">
+    </head>
+    <body>
+
+        <div class="page-wrap">
+            <div class="header-container">
+                <ul class="dropdown">
+                    <li>
+                        <a href="#" onclick="return false;" class="menu-trigger"></a>
+                        <ul class="sub_menu">
+                            <li><a href="#" class="direct-link" ><span class="icon-general icon-link"></span>Direct Link</a></li>
+                            <li><a href="#" onclick="return false;" class="copy-link"><span class="icon-general icon-tag"></span>Copy Link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <h1 id="title"></h1>
+            </div>
+
+            <div class="main-container">
+                <div class="inner">
+                    <img id="main-image" src="">
+                    <video id="main-video" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none">
+                        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                    </video>
+                    <p id="main-notsupported">File type not supported. <a href="#" class="direct-link">Download instead</a>.</p>
+                </div>
+
+            </div>
+
+            <footer class="footer">
+                Shared by <a href="http://sruiz.co.uk">Sebastian Ruiz</a>
+            </footer>
+        </div>
+
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="theme/js/main.js"></script>
+        <!-- video.js must be in the <head> for older IEs to work. -->
+        <script src="theme/js/video.js"></script>
+        <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
+        <script>
+            videojs.options.flash.swf = "theme/js/video-js.swf";
+        </script>
+    </body>
+</html>
