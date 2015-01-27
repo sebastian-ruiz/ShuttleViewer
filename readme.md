@@ -17,6 +17,8 @@ View a [real life example here](http://sht.tl/iKLtFX) of ShuttleViewer in action
 - Video: mov, avi, mp4, mkv
 
 ##Install Guide
+0. Make sure you have [FileShuttle](http://fileshuttle.io/) installed.
+
 1. Download this repository, and add the 'theme' directory and index.html to the same directory that your images end up in.
 
 ![step 1](https://raw.githubusercontent.com/vephinx/ShuttleViewer/master/step1.png)
