@@ -7,25 +7,24 @@ View a [real life example here](http://sht.tl/iKLtFX) of ShuttleViewer in action
 ![step 1](https://raw.githubusercontent.com/vephinx/ShuttleViewer/master/example.png)
 
 ##Features
+
 - Scales images to fit your window
 - Makes viewing on mobile more pleasant
 - Provides shortcut for copying the link
 - Lets you add link to your own site
 
 ##Currently Supported File Formats
+
 - Image: jpg, jpeg, png, gif, tiff, bmp
 - Video: mov, avi, mp4, mkv
 
 ##Install Guide
+
 1. Make sure you have [FileShuttle](http://fileshuttle.io/) installed.
 
-2. Download this repository, and add the 'theme' directory and index.html to the same directory that your images end up in.
+2. Download this repository, and add the 'theme' directory and index.html to the same directory that your images end up in. ![step 2](https://raw.githubusercontent.com/vephinx/ShuttleViewer/master/step1.png)
 
-![step 2](https://raw.githubusercontent.com/vephinx/ShuttleViewer/master/step1.png)
-
-3. Open FileShuttle preferences and add '/?' to the end of the URL field.
-
-![step 3](https://raw.githubusercontent.com/vephinx/ShuttleViewer/master/step2.png)
+3. Open FileShuttle preferences and add '/?' to the end of the URL field. ![step 3](https://raw.githubusercontent.com/vephinx/ShuttleViewer/master/step2.png)
 
 4. Done!
 
